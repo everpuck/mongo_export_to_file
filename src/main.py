@@ -78,7 +78,6 @@ class FileWriter():
         if self.cur_file:
             self.cur_file.close()
             self.cur_file = None
-
         self.logger.info('finish write file...')
 
     def run_write(self, line_str):
